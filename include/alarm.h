@@ -3,19 +3,11 @@
 
 # include"config.h"
 
-# if USE_FILE
 # define RAISE_ERROR(message, system) \
 printf("[ERROR] line%d: %s\n", system->line_cnt, message);\
 system->error_cnt++
 # define SHOW_INFO(message, system) \
 printf("[INFO] line%d %s\n", system->line_cnt, message)
-# else
-# define RAISE_ERROR(message, system) \
-printf("[ERROR] %s\n", message);\
-system->error_cnt++
-# define SHOW_INFO(message, system) \
-printf("[INFO] %s\n", message)
-# endif
 
 # define CHECK_FACT(new_fact) \
 if(!new_fact){\

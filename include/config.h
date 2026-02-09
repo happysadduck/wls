@@ -20,9 +20,6 @@
 # define PROVE_KEY "prove"
 # define SUPPOSE_KEY "suppose"
 # define DEBUG_KEY "debug"
-
-# ifndef USE_FILE
-# define USE_FILE 0
-# endif
+# define QUIT_KEY "quit"
 
 # endif

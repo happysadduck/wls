@@ -327,6 +327,8 @@ int parse_key_words(WLS*system,
                "====="
                "=========================\n\n");
 		return 1;
+	}if(strcmp(key_word, QUIT_KEY)==0){
+		return -1;
 	}
 	return 0;
 }

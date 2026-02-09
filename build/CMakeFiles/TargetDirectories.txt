@@ -1,0 +1,8 @@
+/home/happysadduck/codes/wls/build/CMakeFiles/wolfarch.dir
+/home/happysadduck/codes/wls/build/CMakeFiles/uninstall.dir
+/home/happysadduck/codes/wls/build/CMakeFiles/edit_cache.dir
+/home/happysadduck/codes/wls/build/CMakeFiles/rebuild_cache.dir
+/home/happysadduck/codes/wls/build/CMakeFiles/list_install_components.dir
+/home/happysadduck/codes/wls/build/CMakeFiles/install.dir
+/home/happysadduck/codes/wls/build/CMakeFiles/install/local.dir
+/home/happysadduck/codes/wls/build/CMakeFiles/install/strip.dir
