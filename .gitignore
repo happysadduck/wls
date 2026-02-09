@@ -53,3 +53,20 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+compile_commands.json
+CMakeUserPresets.json
+_deps/
+
+# 构建目录
+build/
+out/
+cmake-build-*/
+[Bb]uild*/
