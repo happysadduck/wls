@@ -73,3 +73,7 @@ cmake-build-*/
 
 # VSCode
 .vscode/
+
+# Buc
+.buc/
+.bucignore
