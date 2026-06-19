@@ -1,9 +1,11 @@
-# ifndef INPUT_H
-# define INPUT_H
+#ifndef INPUT_H
+#define INPUT_H
 
-# include<stdio.h>
-# include"core.h"
+#include <stdio.h>
 
-int read_and_run(FILE*f, WLS*system);
+#include "ptr.h"
 
-# endif
+char *get_cmd(FILE *fp, char *out, char *top, int *end_with_colon,
+              int *is_teriminal, cnt_t *lines_span);
+
+#endif

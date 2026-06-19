@@ -73,7 +73,11 @@ cmake-build-*/
 
 # VSCode
 .vscode/
+.cache/
 
 # Buc
 .buc/
 .bucignore
+
+# Tests
+tests/

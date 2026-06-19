@@ -1,20 +1,12 @@
-# ifndef TRANSLATOR_H
-# define TRANSLATOR_H
+#ifndef TRANSLATOR_H
+#define TRANSLATOR_H
 
-# include"core.h"
+#include "core.h"
 
-int parse_key_words(
-					WLS*system, const char*cmd);
-char*get_prop_core(const char*prop_def_cmd);
-int parse_prop_def(
-						   const char*prop_def_cmd,
-						   Proposition*out);
-int parse_prop_inv(
-				   WLS*system, 
-				   const char*prop_inv_cmd);
-int context_end(WLS*system);
+void translator_prepare(void);
+int parse_keyword(const char *cmd);
+char *parse_prop_def(const char *prop_def_cmd, char *prop_mem, char *top);
+char *parse_prop_inv(char *prop_inv_cmd, char *cmd_end, char *top);
+int context_is_end(void);
 
-void show_prop(Proposition*prop);
-void show_current_context(WLS*system);
-
-# endif
+#endif
